@@ -1,0 +1,44 @@
+{
+  "schema": 0,
+  "project": "majodali/orchestrator-preview",
+  "nodes": [
+    {
+      "id": "P1-N001",
+      "kind": "work",
+      "title": "Fixture line of work",
+      "outcome": "A preview deployment has a plan to read and write that is not a real project's.",
+      "stage": "broken-down",
+      "parent": null,
+      "repository": null,
+      "after": [],
+      "hold": null,
+      "start": "auto",
+      "docs": {
+        "plan": null,
+        "spec": null
+      },
+      "done": null,
+      "note": "Fixture for previews of majodali/project-orchestrator-service (D150). Nothing here is real work."
+    },
+    {
+      "id": "P1-N002",
+      "kind": "work",
+      "title": "Fixture leaf for a write",
+      "outcome": "A preview run has a node it can claim, update and close.",
+      "stage": "identified",
+      "parent": "P1-N001",
+      "repository": null,
+      "after": [],
+      "hold": null,
+      "start": "auto",
+      "docs": {
+        "plan": null,
+        "spec": null
+      },
+      "done": null,
+      "note": null
+    }
+  ],
+  "tasks": [],
+  "decisions": []
+}
